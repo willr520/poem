@@ -55,7 +55,7 @@ a {
 	font-size: 40px;
 }
 .thirdlink{
-	position: relative;
+	position: fixed;
 	margin: 0 auto;
 	clear: left;
 	height: auto;
