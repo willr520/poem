@@ -1,0 +1,71 @@
+
+a {
+	text-decoration: none;
+}
+
+.audio1 {
+	color: white;
+	text-align: center;
+	font-size:  80px;
+	background-color: #719BFF;
+	background-size: auto;
+	transition: background-color 2s;
+	text-decoration: none;
+}
+.audio1:hover{
+	background-color: #FFA6F8;
+}
+.audio1:visited{
+	color: white;
+}
+.audio2 {
+	text-align: center;
+	font-size:  80px;
+	background-color: #FFDAD2;
+	transition: background-color 2s;
+	text-decoration: none;
+}
+
+
+.audio2:hover{
+	background-color: #7BD6FF;
+}
+.audio3 {
+	text-align: center;
+	font-size:  80px;
+	background-color: #FFBFE6;
+	transition: background-color 2s;
+	text-decoration: none;
+}
+
+.audio3:hover {
+	background-color: #FFD491;
+}
+
+.firstlink {
+	position: fixed;
+	left: 0px;
+	width: 200;
+	font-size:  40px;
+}
+.secondlink {
+	position: fixed;
+	right:  40px;
+	width: 200px;
+	font-size: 40px;
+}
+.thirdlink{
+	position: relative;
+	margin: 0 auto;
+	clear: left;
+	height: auto;
+	z:-index: 0;
+	text-align: center;
+	font-size:  40px;
+}
+.firstaudio{
+	position: fixed;
+	right: 40px;
+	top: 200px;
+}
+}
