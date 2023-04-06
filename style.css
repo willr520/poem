@@ -1,45 +1,74 @@
 
-a {
-	text-decoration: none;
+
+
+body {
+	background-image: url("background.svg");
+	font-family: 'Archivo', sans-serif;
 }
 
-.audio1 {
-	color: white;
+#title {
+	color: yellow;
+	background-color: black;
+	text-align: right;
+}
+
+#name {
+	color: yellow;
+	background-color: black;
+}
+
+.audio1 figure {
+	color: red;
 	text-align: center;
 	font-size:  80px;
-	background-color: #719BFF;
+	background-image: url("background2.svg");
+	background-size: cover;
+	transition: background-color 2s;
+	text-decoration: none;
+}
+.audio1 figure:hover{
+	background-color: black;
+}
+
+.audio1 a {
+	text-decoration: none;
+	color: black;
+	transition: color 2s;
+}
+.audio1 a:hover {
+	color: white;
+}
+
+.audio2 figure {
+	text-align: center;
+	font-size:  80px;
+	backgorund-image: url("background3.svg");
 	background-size: auto;
 	transition: background-color 2s;
 	text-decoration: none;
 }
-.audio1:hover{
-	background-color: #FFA6F8;
+
+
+.audio2 a {
+	text-decoration: none;
+	color: red;
+	transition: color 2s;
 }
-.audio1:visited{
+.audio2 a:hover {
 	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
 }
-.audio2 {
+.audio3 figure{
 	text-align: center;
 	font-size:  80px;
-	background-color: #FFDAD2;
-	transition: background-color 2s;
+	background-image: url(sky.jpg);
+	background-size: contain;
 	text-decoration: none;
 }
 
-
-.audio2:hover{
-	background-color: #7BD6FF;
-}
-.audio3 {
-	text-align: center;
-	font-size:  80px;
-	background-color: #FFBFE6;
-	transition: background-color 2s;
-	text-decoration: none;
-}
-
-.audio3:hover {
-	background-color: #FFD491;
+.audio3 a {
+	color: white;
 }
 
 .firstlink {
@@ -47,6 +76,27 @@ a {
 	left: 0px;
 	width: 200;
 	font-size:  40px;
+}
+#firstcaption{
+	position: fixed;
+	color: yellow;
+	background-color: black;
+	top:  150px;
+}
+#secondcaption{
+	position: fixed;
+	color: red;
+	background-color: black;
+	top: 400px;
+	left: 35%;
+}
+#thirdcaption{
+	position: fixed;
+	color: white;
+	background-color: black;
+	top: 700px;
+	right: 35%;
+
 }
 .secondlink {
 	position: fixed;
@@ -56,6 +106,7 @@ a {
 }
 .thirdlink{
 	position: fixed;
+	right: 35%;
 	margin: 0 auto;
 	clear: left;
 	height: auto;
@@ -65,7 +116,61 @@ a {
 }
 .firstaudio{
 	position: fixed;
-	right: 40px;
+	text-align: center;
 	top: 200px;
 }
+
+
+
+.skyimages {
+	text-align: center;
+}
+
+.randomtext {
+	font-family: 'Libre Barcode 39', cursive;
+	position: absolute;
+	font-size: 50px;
+	
+	top: 50%;
+
+}
+.textrandom{
+font-family: 'Archivo', sans-serif;
+position: absolute;
+	font-size: 50px;
+	color: black;
+	top: 50%;
+
+}
+.textrandom2{
+	font-family: 'Archivo', sans-serif;
+position: absolute;
+	font-size: 50px;
+	color: black;
+	top: 55%;
+}
+.textrandom3{
+	font-family: 'Archivo', sans-serif;
+position: absolute;
+	font-size: 50px;
+	color: black;
+	top: 70%;
+}
+#bottomsurround {
+	color: yellow;
+	background-color: black;
+	background-size: 100%;
+	top: 25%;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	position: fixed;
+	right: 0px;
+	
+}
+
+#appreciatebottom {
+	color: yellow;
+	background: black;
+	position: absolute;
+	bottom: 0px;
 }
